@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Day from "./componants/Day";
-import Time from "./componants/time";
+import Time from "./componants/Time";
 const App = () => {
   const [selectedCity, setSelectedCity] = useState("Cairo");
   const governorates = [
