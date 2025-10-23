@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libertinus Serif", serif;
+}
+html {
+  direction: rtl;
+}
+
+.main-div {
+  background: url(../public/bg.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.contanar {
+  background-color: rgba(202, 111, 111, 0.329);
+  width: 35rem;
+  margin: 0 80px;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .contanar {
+    margin: 0 ;
+  }
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+select {
+  background-color: rgba(165, 42, 42, 0.603);
+  color: white;
+  max-width: 150px;
+  height: 40px;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.prayer {
+  background-color: rgba(165, 42, 42, 0.603);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+margin-bottom:1rem ;
+}
+
+.prayer-name {
+  margin: 10px;
+  width: 50%;
+  padding: 10px;
+}
